@@ -3,8 +3,8 @@
 </template>
 
 <script>
-import MainLayout from '../../Layout/MainLayout.vue'
+import MainLayout from '../../Layouts/MainLayout.vue';
 export default{
-  layout: MainLayout,
+  layout: MainLayout
 }
 </script>

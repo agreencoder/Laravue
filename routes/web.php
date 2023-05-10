@@ -20,3 +20,5 @@ Route::get('/', function () {
 
 Route::get('/',[IndexController::class, 'Index']);
 Route::get('/show',[IndexController::class, 'Show']);
+
+Route::resource('listing', ListingController::class)->only(['index']);
